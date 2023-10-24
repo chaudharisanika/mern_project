@@ -13,8 +13,16 @@ export default function Navbar()
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/">Home</Link>
+              </li>
+              <li className="nav-item">
               <Link className="nav-link" to="/login">Login</Link>
+              </li>
+              <li className="nav-item">
+              <Link className="nav-link" to="/createuser">Signup</Link>
+              </li>
+
               
             </div>
           </div>
