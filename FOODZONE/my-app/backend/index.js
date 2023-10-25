@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 5000
 const mongoDB = require('./db')  //for mongoose
-mongoDB()
+// mongoDB()
 
 app.use((req,res,next)=>
 {
